@@ -255,10 +255,12 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="packages.config" />
-    <None Include="web.config.output" />
-    <None Include="web.config.sample" />
+    <None Include="README.md" />
+    <None Include="SampleData\web.config.output" />
+    <None Include="SampleData\web.config.sample" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".gitignore" />
     <Content Include="ILLink\ILLink.Descriptors.LibraryBuild.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

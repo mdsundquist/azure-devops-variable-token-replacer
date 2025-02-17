@@ -401,3 +401,6 @@ FodyWeavers.xsd
 
 # Appsettings json contains user-specific info
 appsettings.json
+
+# Ignore sample data
+[Ss]ample[Dd]ata/*
