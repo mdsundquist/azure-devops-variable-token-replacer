@@ -25,3 +25,5 @@
   }
 }
 ```
+
+**NOTE:** If running from inside an IDE, make sure to set the command line arguments in the appropriate configuration setting. *E.g.*, the Debug settings in the Project Properties in Visual Studio accessible via context menu and stored in *AzureDevOpsVariableTokenReplacer.csproj.user*. 
